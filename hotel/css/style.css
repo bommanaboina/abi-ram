@@ -1,0 +1,499 @@
+
+@font-face {
+    font-family: 'ar_decoderegular';0
+    src: url('../fonts/ardecode-webfont.eot');
+    src: url('../fonts/ardecode-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ardecode-webfont.woff2') format('woff2'),
+         url('../fonts/ardecode-webfont.woff') format('woff'),
+         url('../fonts/ardecode-webfont.ttf') format('truetype'),
+         url('../fonts/ardecode-webfont.svg#ar_decoderegular') format('svg');
+         font-weight: normal;
+         font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('../fonts/quicksand-bold-webfont.eot');
+    src: url('../fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-bold-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-bold-webfont.woff') format('woff'),
+         url('../fonts/quicksand-bold-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-bold-webfont.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('../fonts/quicksand-regular-webfont.eot');
+    src: url('../fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('../fonts/quicksand-regular-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('../fonts/quicksand-light-webfont.eot');
+    src: url('../fonts/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/quicksand-light-webfont.woff2') format('woff2'),
+         url('../fonts/quicksand-light-webfont.woff') format('woff'),
+         url('../fonts/quicksand-light-webfont.ttf') format('truetype'),
+         url('../fonts/quicksand-light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('../fonts/droidsans-webfont.eot');
+    src: url('../fonts/droidsans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidsans-webfont.woff2') format('woff2'),
+         url('../fonts/droidsans-webfont.woff') format('woff'),
+         url('../fonts/droidsans-webfont.ttf') format('truetype'),
+         url('../fonts/droidsans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'droid_sansbold';
+    src: url('../fonts/droidsans-bold-webfont.eot');
+    src: url('../fonts/droidsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidsans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/droidsans-bold-webfont.woff') format('woff'),
+         url('../fonts/droidsans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/droidsans-bold-webfont.svg#droid_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font: inherit;
+	vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+li{float:left;list-style:none;}
+a{text-decoration:none;}
+
+.heder-top{
+	overflow:hidden;
+	background:#2a2e33;
+}
+.container{
+	margin:0px auto;
+	overflow:hidden;
+	width:1184px;
+}
+.logo{
+	width:400px;
+	float:left;
+}
+.logo img{
+	float:left;
+	padding-right:12px;
+	padding:36px 12px 42px 0px;
+	
+}
+.logo p{
+	color:#ffffff;
+	line-height:30px;
+	font-size:14px;
+	font-family: 'quicksandregular';
+	padding-top:36px;
+	
+}
+.heder-top-right{
+    float:right;
+	width:666px;
+	overflow:hidden;
+}
+
+
+.ul li{
+	border-top:#2a2e33 4px solid;
+	font-family: 'droid_sansbold';
+}
+.ul li{
+	color:#ffffff;
+	text-decoration:none;
+	padding:0px 18px 0px 18px;
+	font-size:13px;
+	line-height:96px;
+}
+.ul li:hover{
+	background:#1e2329;
+	border-top:#ffd700 4px solid;
+}
+.active{
+	background:#1e2329;
+    border-top:#ffd700 4px solid !important;
+
+}
+.heading{
+	overflow:auto;
+	margin:0px auto;
+	background:url(../images/slider1.png) no-repeat center;
+	background-size:100%;
+	
+}
+.heading h6{
+	font-size:30px;
+	text-align:center;
+	color:#FFFFFF;
+	padding-top:80px;
+   font-family: 'quicksandbold';
+}
+.heading h6 span{
+	font-family: 'quicksandregular';
+}
+.heading h1{
+	font-size:60px;
+	color:#FFFFFF;
+	text-align:center;
+	font-family: 'droid_sansbold';
+	padding-top:65px;
+}
+.heading p{
+	font-size:30px;
+	color:#FFFFFF;
+	text-align:center;
+	font-family: 'quicksandregular';
+	padding-top:80px;
+	padding-bottom:116px;
+}
+.contet{
+	background:#f1f1f1;
+	margin:0px auto;
+	position:relative;
+	border-bottom:1px solid #929497;
+	
+}
+
+.block{
+	width:1000px;
+	margin-left:110px;
+    background:url(../images/b1.png);
+    position: absolute;
+    top:-50px;
+	
+}
+.block h1{
+	color:#FFFFFF;
+}
+.shadow{
+	background:url(../images/b2.png) no-repeat center;
+	padding-bottom: 129px;
+}
+.Arrival{
+	margin-left:30px;
+	padding-top:10px;
+	
+}
+.icons ul li p{
+	color:#ffd700;
+	font-size:18px;
+	clear:both;
+	padding-left: 25px;
+	font-family: 'quicksandlight';
+}
+.icons{
+	padding-top:15px;
+}
+.icons ul li input{
+    width:215px;
+	clear:both;
+    margin-left:25px;
+	margin-top:5px;
+    padding: 12px 0px 12px 30px;
+    border-radius:7px;
+	margin-bottom:22px;
+	background:#FFF url(../images/re.png) no-repeat 10px;
+}
+.icons ul li select{
+    width:215px;
+	clear:both;
+    margin-left:25px;
+	margin-top:5px;
+    padding: 12px 0px 12px 30px;
+    border-radius:7px;
+	margin-bottom:22px;
+	background:#FFF url(../images/icon1.png) no-repeat 10px;
+}
+.icons ul li img{
+	padding-right:5px;
+}
+.icons.last button{
+    width:150px;
+	background:#ffd700;
+	text-align:center;
+	font-size:18px;
+	border:none;
+	margin-top:7px;
+    margin-left:12px;
+    padding:12px 16px;
+    border-radius:10px;
+	margin-left: 20px;
+	font-family: 'droid_sansbold';
+}
+.package{
+	clear:both;
+	
+}
+.package h6{
+	text-align:center;
+	font-size:60px;
+	padding-top:105px;
+	font-family:'ar_decoderegular';
+
+}
+.package p{
+    text-align:center;
+	font-size:14px;
+	padding-top:6px;
+	font-family: 'quicksandlight';
+	
+}
+.package div{
+	 padding: 46px 0px 40px 24px;
+}
+.Rigs{
+	border: 2px solid;
+    border-radius: 50%;
+	margin-left:25px;
+}
+.img{
+	padding:0px 75px 60px 75px;
+}
+.boxes{
+	overflow:hidden;
+    background:url(../images/bg.png);
+	margin:0px auto;
+	padding-bottom:100px;
+}
+.boxes h6{
+	font-size:60px;
+	text-align:center;
+	padding-top:40px;
+	font-family:'ar_decoderegular';
+}
+.box{
+	width:380px;
+	float:left;
+    padding-left:14px;
+}
+.box h5{
+	font-size:24px;
+	color:#86898b;
+	padding-top:200px;
+	text-align:center;
+	font-family: 'quicksandregular';
+	
+}
+.box div img{
+	width:380px;
+	height:160px;
+	clear:both;
+	padding-top:30px;
+
+}
+.box p{
+	font-size:12px;
+	color:#86898b;
+	padding-top:10px;
+	font-family:'quicksandregular';
+}
+.box img{
+    float:left;
+	padding:20px 10px 0px 0px;
+}
+.img1{
+    margin-left:100px;
+}
+.world{
+	margin:0px auto;
+	background-color:#e7cb2c;
+}
+.containere{
+	margin: 0px auto;
+    width: 1184px;
+    position: relative;
+}
+.world h6{
+    font-size:48px;
+	color:#ffffff;
+	line-height:48px;
+	padding-top:35px;
+    font-family: 'quicksandregular';
+}
+.world p{
+    font-size:18px;
+	color:#ffffff;
+	line-height:48px;
+	padding-top:20px;
+	padding-bottom:34px;
+	font-family: 'quicksandregular';
+}
+
+.man{
+    float:right;
+    position: absolute;
+    right:0px;
+    top: -83px;
+}
+.footer{
+    overflow:hidden;
+	margin:0px auto;
+	background-color:#333333;
+	border-bottom:31px solid #1f1f1f;
+}
+.about{
+    width:230px;
+	float:left;
+    margin-right:25px;
+}
+.about h6{
+    font-size:18px;
+	color:#ffffff;
+	padding-top:25px;
+	font-family: 'droid_sansregular';
+}
+.about p{
+    font-size:12px;
+	color:#ffffff;
+	padding-top:20px;
+	font-family: 'quicksandregular';
+}
+.LATEST{
+    width:200px;
+	float:left;
+	margin-right:35px;
+}
+.LATEST h6{
+    font-size:18px;
+	color:#ffffff;
+	padding-top:25px;
+	font-family: 'droid_sansregular';
+}
+.LATEST p{
+    font-size:12px;
+	color:#ffffff;
+	padding-top:10px;
+	font-family: 'quicksandregular';
+}
+.LATEST span{
+    color:#6f6631;
+}
+.JOIN{
+    width:450px;
+	float:left;
+    padding-bottom:110px;
+
+}
+.JOIN h6{
+    font-size:18px;
+	color:#ffffff;
+	padding-top:25px;
+	font-family: 'droid_sansregular';
+}
+.JOIN p{
+    font-size:12px;
+	color:#ffffff;
+	padding-top:20px;
+	font-family: 'quicksandregular';
+}
+.JOIN h5{
+    font-size:12px;
+	text-align:center;
+	padding:10px 16px;
+	margin-top:25px;
+	width:100px;
+	background-color:#e7cb2c;
+	border-radius:10px;
+	font-family: 'droid_sansregular';
+}
+.form h6{
+    font-size:18px;
+	color:#ffffff;
+	padding-top:25px;
+	font-family: 'droid_sansregular';
+}
+.form{
+    color:#ffffff;
+	font-size:12px;
+	float:right;
+	font-family: 'quicksandregular';
+	
+}
+.input{
+    background:none;
+	border:solid 1px #1f1f1f;
+	border-radius:10px;
+	padding:8px 25px;
+    margin-top: 5px;
+}
+.form form{
+    padding-top:20px;
+}
+.form h5{
+    font-size:12px;
+	text-align:center;
+	padding:10px 16px;
+	margin-top:10px;
+	width:100px;
+	background-color:#e7cb2c;
+	border-radius:10px;
+	color:black;
+	font-family: 'droid_sansregular';
+}
